@@ -1,0 +1,61 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: flex-start;
+    height: calc(100vh - 140px);
+}
+
+
+.white {
+    color: white;
+}
+
+.subheading1,
+.subheading2 {
+    font-size: 20px;
+}
+
+.bigger {
+    font-size: 35px;
+}
+
+.currentProject, .recentBlogs, .allWorks {
+    font-size: 25px;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.heading {
+    font-size: 55px;
+    padding-bottom: 50px;
+}
+
+.subheading1 {
+    padding-bottom: 10px;
+}
+
+.subheading2 {
+    padding-bottom: 50px;
+}
+
+.recentBlogs {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.recents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.allWorks {
+    padding-top: 30px;
+}
+
+u:hover {
+    text-decoration: none;
+}

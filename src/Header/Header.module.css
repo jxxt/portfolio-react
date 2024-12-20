@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* .main {
@@ -13,13 +16,7 @@
     justify-content: center;
     align-items: center;
 } */
-
-.header {
-    border-bottom: 1px solid rgb(46, 46, 46);
-    display: flex;
-    justify-content: space-between;
-}
-
+ 
 .blink {
     animation: blinker 1.5s ease-in infinite;
     filter: drop-shadow(0 0 0.05rem chartreuse);
