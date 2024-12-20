@@ -2,30 +2,38 @@ import ProjectsCard from "../ProjectsCard/ProjectsCard";
 import styles from "./ProjectsContent.module.css";
 
 import i from "../assets/i.png";
+import one from "../assets/one.svg";
+import two from "../assets/two.svg";
 
 const ProjectsContent = () => {
-    // Array of card objects
     const projectCards = [
         {
-            image: i,
-            title: "Project 1",
-            description: "Description for Project 1",
-            code: "https://www.google.com",
-            preview: "https://www.google.com"
+            image: one,
+            title: "get-ripped",
+            description: "a minimalist workout tracker app",
+            code: "https://github.com/getripped/web-app",
+            preview: "https://getripped.vercel.app/",
         },
         {
-            image: i,
-            title: "Project 2",
-            description: "Description for Project 2",
-            code: "https://www.example.com",
-            preview: "https://www.example.com"
+            image: two,
+            title: "Rochambeau",
+            description: "simple rock-paper-scissors game",
+            code: "https://github.com/jxxt/Rochambeau",
+            preview: "https://jxxt.github.io/Rochambeau/",
         },
         {
             image: i,
             title: "Project 3",
             description: "Description for Project 3",
             code: "https://www.github.com",
-            preview: "https://www.github.com"
+            preview: "https://www.github.com",
+        },
+        {
+            image: i,
+            title: "Project 3",
+            description: "Description for Project 3",
+            code: "https://www.github.com",
+            preview: "https://www.github.com",
         },
     ];
 

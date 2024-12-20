@@ -1,7 +1,7 @@
 .card {
-    border: 2px solid chartreuse;
-    width: 18vw;
-    height: 252px;
+    border: 3px solid rgba(128, 255, 0, 0.5);
+    width: 280px;
+    height: 250px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
 }
 
 .image img{
+    cursor: default;
     height: 100px;
     width: 100%;
     border-top-left-radius: 20px;
@@ -26,6 +27,8 @@
     word-wrap: normal;
     width: 100%;
     margin: 0px 10px;
+    color: white;
+    margin-top: 8px;
 }
 
 .buttons {
