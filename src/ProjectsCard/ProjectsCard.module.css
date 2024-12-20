@@ -1,0 +1,49 @@
+.card {
+    border: 2px solid chartreuse;
+    width: 18vw;
+    height: 252px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    gap: 10px;
+}
+
+.image img{
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title {
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.description {
+    font-size: 18px;
+    word-wrap: normal;
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: 12px;
+}
+
+.buttons > div > a > button {
+    font-size: 20px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(43, 43, 43);
+    color: chartreuse;
+}
+
+button {
+    cursor: pointer;
+}

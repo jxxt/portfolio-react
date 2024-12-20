@@ -1,7 +1,11 @@
 .content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;   
+    flex-direction: row;
+    justify-content: space-between;   
     align-items: flex-start;
-    min-height: calc(100vh - 140px);
+    /* min-height: calc(100vh - 140px); */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    row-gap: 40px;
 }

@@ -42,6 +42,16 @@
     cursor: pointer;
 }
 
-.projects:hover span, .blogs:hover span, .techstack:hover span {
+.projects:hover span:last-child,
+.blogs:hover span:last-child,
+.techstack:hover span:last-child {
+    animation: none;
+}
+
+.activeWord {
+    text-decoration: underline;
+}
+
+.noAnimation {
     animation: none;
 }
