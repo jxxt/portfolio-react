@@ -1,30 +1,31 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
-import lightIcon from "../assets/light.svg"
+import lightIcon from "../assets/light.svg";
 
 function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.name}>
-                <a href="https://jxxt.github.io/">
+                <Link to="/">
                     jxxt<span className={styles.blink}>_</span>
-                </a>
+                </Link>
             </div>
 
             <div className={styles.navbar}>
                 <div className={styles.projects}>
-                    <a href="https://jxxt.github.io/projects">
+                    <Link to="/projects">
                         <span className={styles.slowBlink}>/</span>projects
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.blogs}>
-                    <a href="https://jxxt.github.io/blogs">
+                    <Link to="/blogs">
                         <span className={styles.slowBlink}>/</span>blogs
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.techstack}>
-                    <a href="https://jxxt.github.io/techstack">
+                    <Link to="/techstack">
                         <span className={styles.slowBlink}>/</span>techstack
-                    </a>
+                    </Link>
                 </div>
             </div>
 
