@@ -1,15 +1,15 @@
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import ProjectsContent from "./ProjectsContent/ProjectsContent";
+import BlogsContent from "./BlogsContent/BlogsContent";
 
-const Projects = () => {
+const Blogs = () => {
     return (
         <body>
             <Header />
-            <ProjectsContent />
+            <BlogsContent />
             <Footer />
         </body>
     );
 }
 
-export default Projects;
+export default Blogs;

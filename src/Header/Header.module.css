@@ -41,3 +41,7 @@
 .themeBtn {
     cursor: pointer;
 }
+
+.projects:hover span, .blogs:hover span, .techstack:hover span {
+    animation: none;
+}
